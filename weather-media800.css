@@ -1,0 +1,38 @@
+#weather{
+    width: 90%;
+    padding: .5rem;
+}
+.header{
+    font-size: 3.5rem;
+}
+.weather-info,.weather-data{
+    /* border: 2px solid; */
+    width: 100%;
+    padding: .3rem;
+}
+.weather-info > p{
+    /* border: 2px solid; */
+    width: 100%;
+}
+.weather-data > p{
+    /* border: 2px solid; */
+    width: 100%;
+}
+.weather-day-to-day-container{
+    flex-direction: column;
+    width: 100%;
+    /* border: 2px solid; */
+    padding: 0.5rem;
+    justify-content: space-evenly;
+}
+.day{
+    flex-direction: row;
+    /* border: 2px solid; */
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+    padding: 1rem 0 2rem;
+}
+i{
+    font-size: 3rem;
+}
